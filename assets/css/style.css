@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}   
+body{
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+table{
+    margin: 2rem auto;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+    padding: 1rem;
+}
+thead:nth-child(odd){
+    background-color: #9e9a9a;
+}
+tbody tr:nth-child(odd){
+    background-color: #dfdede;
+}
+form input, select{
+    width: 24%;
+    padding: 0.5rem;
+}
